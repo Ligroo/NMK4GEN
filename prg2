@@ -1,0 +1,5 @@
+echo File name?
+read file
+echo Enter text?
+read text
+echo "$text" > $file
