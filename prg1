@@ -1,0 +1,9 @@
+echo File name?
+read name
+FILE="$name"
+
+while read line
+do
+	echo $line
+done < "$FILE"
+
